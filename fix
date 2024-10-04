@@ -41,7 +41,7 @@ Mulai
 	  	cd /var/www/html && rm index.php && wget 192.168.#.#:80/index.php
 	  
 
-	Terminal 3
+	Terminal 4
 		sudo su
 		rm -R data-server2 error.php note tmp.c index.php sql fix
 		
