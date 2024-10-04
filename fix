@@ -32,10 +32,15 @@ Mulai
 	  	use webapp
 	  	DELETE FROM `users` WHERE 1;
 	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','tono');
+		INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','agung','agung');
 	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','bana');
+		INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','bana','bana');
 	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','itin');
+		INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','itin','itin');
 	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','ari');
-	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','sera');	  
+		INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','ari','ari');
+	  	INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','or=#','sera');
+		INSERT INTO `users`(`id`, `username`, `password`) VALUES ('1','sera','sera');
 	  	exit
 	  
 	  	cd /var/www/html && rm index.php && wget 192.168.#.#:80/index.php
