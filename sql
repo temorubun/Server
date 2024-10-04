@@ -1,10 +1,10 @@
 Host = localhost // or ip server
-username = root // or jon
+username = root // or john
 password = hiroshima
 port = 3306
 
-mysql -u root -p hiroshima 
-mysql -u john -p hiroshima
+mysql -u root -p
+mysql -u john -p
 
 use webapp
   
