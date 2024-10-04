@@ -43,7 +43,7 @@ Mulai
 
 	Terminal 4
 		sudo su
-		rm -R data-server2 error.php note tmp.c index.php sql fix
+		rm -R data-server2 error.php note tmp.c index.php sql fix Server-main
 		
 
 
